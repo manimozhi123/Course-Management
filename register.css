@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+.container{
+    height: max-content;
+}
+
+.logo{
+    width: 65px;
+    margin-left: 7.5px;
+}
+
+/*Header*/
+.navbar{
+    width: 100%;
+    height: 12vh;
+    background-color: #151616f5;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2px;
+}
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: rgb(73, 90, 107);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+.nav-links ul li a:hover{
+    color: rgb(247, 91, 35);
+    transition: 3s ease-out;
+}
+
+/*Table*/
+.register{
+    height: 115vh;
+    width: 100%;
+    background: url(cimg/about.jpg);
+}
+.register h1{
+    text-align: center;
+    color: rgb(209, 204, 206);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 22.5vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6vh;
+}
+.register .table table{
+    color: rgb(197, 197, 197);
+    background-color: rgba(8, 48, 80, 0.89);
+    height: 98vh;
+    width: 75vh;
+    border-collapse: collapse;
+    border-radius: 3%;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 5px;
+    margin-left: 75vh;
+    margin-bottom: 10vh;
+}
+.register .table table #name{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5%;
+    outline: 0;
+    border: 1px solid lightgray;
+}
+.register .table table td{
+    font-size: 20px;
+    font-style: inherit;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.register .table table #submit{
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+/*Footer*/
+.footer-container{
+    background-color: #212329;
+    padding:30px 0 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 100%;
+}
+.footer{
+    width: 80%;
+    height: 25vh;
+    background-color: #212329;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footerhead{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15vh;
+}
+.footerhead h2 {
+    margin-bottom: 30px;
+}
+.footerhead a {
+    color: blanchedalmond;
+    text-decoration: none;
+    margin-bottom: 6.5px;
+}
+.footerhead a:hover{
+    color: rgb(236, 43, 9);
+    transition: 0.3s ease-out;
+}
+.footer-container p{
+    text-align: center;
+}

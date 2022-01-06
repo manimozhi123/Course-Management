@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+.container{
+    height: max-content;
+}
+
+.logo{
+    width: 65px;
+    margin-left: 7.5px;
+}
+
+/*Header*/
+.navbar{
+    width: 100%;
+    height: 12vh;
+    background-color: #000000eb;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2px;
+}
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: rgb(73, 90, 107);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+.nav-links ul li a:hover{
+    color: rgb(247, 91, 35);
+    transition: 3s ease-out;
+}
+
+/*content*/
+.content{
+    background-color: rgb(243, 237, 123, .94);
+    display: flex;
+}
+.content h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 0;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+.content .c3{
+    width: 75vh;
+    margin-left: 10vh;
+    border-radius: 3%;
+    margin-bottom: 10px;
+}
+.content .info{
+    position: relative;
+    background: rgb(255, 43, 43, .38);    
+    margin-top: 15vh;
+    height: max-content;
+    border-radius: 5%;   
+}
+.content .info h2{
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+.content .info p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 1px;
+}
+
+/*content2*/
+.content2{
+    background-color: #32cd7e;
+    display: flex;
+}
+.content2 .textmode{
+    position: relative;
+    background: rgb(255, 247, 148, .89);    
+    margin-top: 12vh;
+    height: max-content;
+    border-radius: 5%;    
+    text-align: left;
+}
+.content2 .textmode h2{
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+.content2 .textmode p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 1px;
+}
+.content2 .img1 h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+.content2 .img1 .c6{
+    width: 75vh;
+    height: 50vh;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 3%;
+}
+
+/*content3*/
+.content3{
+    background-color: rgb(177, 72, 96, .9);
+    display: flex;
+}
+.content3 h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+.content3 .c7{
+    width: 75vh;
+    margin-left: 10vh;
+    border-radius: 3%;
+    margin-bottom: 10px;
+}
+.content3 .placement{
+    position: relative;
+    background: rgb(234, 201, 159);    
+    margin-top: 17vh;
+    height: max-content;
+    border-radius: 5%;
+}
+.content3 .placement h2{
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+.content3 .placement p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 1px;
+}
+
+
+
+/*Footer*/
+.footer-container{
+    background-color: #212329;
+    padding:30px 0 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 100%;
+}
+.footer{
+    width: 80%;
+    height: 25vh;
+    background-color: #212329;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footerhead{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15vh;
+}
+.footerhead h2 {
+    margin-bottom: 30px;
+}
+.footerhead a {
+    color: blanchedalmond;
+    text-decoration: none;
+    margin-bottom: 6.5px;
+}
+.footerhead a:hover{
+    color: rgb(236, 43, 9);
+    transition: 0.3s ease-out;
+}
+.footer-container p{
+    text-align: center;
+}

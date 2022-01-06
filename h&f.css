@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+.container{
+    height: max-content;
+}
+
+.logo{
+    width: 65px;
+    margin-left: 7.5px;
+}
+
+/*Header*/
+.navbar{
+    width: 100%;
+    height: 12vh;
+    background-color: #000000eb;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2px;
+}
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: rgb(73, 90, 107);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+.nav-links ul li a:hover{
+    color: rgb(247, 91, 35);
+    transition: 3s ease-out;
+}
+
+
+
+/*Footer*/
+.footer-container{
+    background-color: #212329;
+    padding:30px 0 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 100%;
+}
+.footer{
+    width: 80%;
+    height: 25vh;
+    background-color: #212329;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footerhead{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15vh;
+}
+.footerhead h2 {
+    margin-bottom: 30px;
+}
+.footerhead a {
+    color: blanchedalmond;
+    text-decoration: none;
+    margin-bottom: 6.5px;
+}
+.footerhead a:hover{
+    color: rgb(236, 43, 9);
+    transition: 0.3s ease-out;
+}
+.footer-container p{
+    text-align: center;
+}
